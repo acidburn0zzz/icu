@@ -80,7 +80,7 @@ jobs:
       - name: Create directory for lib files
         run: mkdir icu4c/source/perflib
       - name: Get ICU libs
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: icu-perf-libs
           path: icu4c/source/lib
@@ -148,7 +148,7 @@ jobs:
       - name: Create directory for lib files
         run: mkdir icu4c/source/perflib
       - name: Get ICU libs
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: icu-perf-libs
           path: icu4c/source/lib
@@ -207,7 +207,7 @@ jobs:
       - name: Create directory for lib files
         run: mkdir icu4c/source/perflib
       - name: Get ICU libs
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: icu-perf-libs
           path: icu4c/source/lib
